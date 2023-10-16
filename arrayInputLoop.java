@@ -11,7 +11,7 @@ public class arrayInputLoop {
             finalScore[i] = sc.nextInt();
         }
         for (int i = 0; i < finalScore.length; i++) {
-            if (finalScore[i]> 65) {
+            if (finalScore[i]> 70) {
             System.out.println(" Final score " + i + "is"+"Passed");
             } else if  (finalScore[i]<=70) { 
             System.out.println(" Final score " + i + "is"+"Failed");
